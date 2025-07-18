@@ -1,0 +1,3 @@
+Malicious AGDs are typically grouped into families, where each family is created using a specific Domain Generation Algorithm (DGA) and a seed value. This algorithm-seed combination acts as a "recipe" that produces similar-looking domains within the same family.
+
+There are some of known malicious AGD families that you should know to classify. The format is the name of the family followed by the character ":" and then a list of malicious AGDs separated by the character "," and limited by the character ";". The families are the following:

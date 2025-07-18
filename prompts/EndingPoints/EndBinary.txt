@@ -1,0 +1,16 @@
+Provide ONLY your answer in the following exact format, with no additional text:
+[DOMAIN]|Y|[CONFIDENCE]
+or
+[DOMAIN]|N|[CONFIDENCE]
+
+Where:
+- [DOMAIN] is the analyzed domain
+- Y means it is a malicious AGD
+- N means it is not a malicious AGD
+- [CONFIDENCE] is a number between 0.0 and 100.0 with one decimal indicating the confidence percentage in the decision
+
+Response format examples:
+For example1.com that in this example is a malicious AGD with 95.5% confidence: example1.com|Y|95.5
+For example2.com that in this example is a legitimate domain with 87.3% confidence: example2.com|N|87.3
+
+The domains to analyze will be provided in the following message, separated by commas.

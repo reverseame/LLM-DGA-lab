@@ -1,0 +1,29 @@
+Malicious AGDs can follow different generation schemes:
+
+* Arithmetic-based: Uses mathematical operations to generate domains
+* Hash-based: Employs cryptographic hash functions for domain generation
+* Wordlist-based: Creates domains by concatenating words from predefined lists
+* Permutation-based: Generates variations by permuting a base domain string
+* Adversarial-based: Creates domains that deliberately evade detection by replicating benign domain characteristics
+
+When analyzing a domain, please consider the following lexical features:
+
+1. Stadistical features
+* Level of Randomness: Malicious domains tend to have higher levels of randomness due to uniform and random character distribution, while legitimate domains have lower randomness due to natural linguistic patterns.
+* Character Frequency: Legitimate domains use common characters in proportions similar to natural language, while malicious ones tend to use uncommon characters more frequently.
+* Digit/Letter Ratio: Malicious domains tend to have a higher proportion of digits to letters, while legitimate ones maintain a more moderate and contextual use of numbers.
+
+2. Pronounceability Features
+
+* Pronounceability Index: Legitimate domains are easily pronounceable due to their natural linguistic structure, while malicious ones are difficult or impossible to pronounce.
+* Consonant/Vowel Ratio: Legitimate domains maintain a natural proportion between consonants and vowels similar to human language, while malicious ones tend to have unbalanced proportions.
+
+3. Linguistic Features
+
+* Meaningful Word Presence: Legitimate domains tend to contain real words or meaningful combinations, while malicious ones use meaningless character sequences. This is particularly effective for detecting hash-based and arithmetic-based AGDs.
+* Dictionary Presence: Legitimate domains tend to contain words that appear in dictionaries or recognizable combinations of them, while malicious ones use random sequences. While wordlist-based AGDs may contain dictionary words, they often combine them in unnatural ways.
+
+4. Composition Features
+
+* Similarity to Popular Domains: Malicious domains often try to imitate popular domains with small variations, while legitimate ones are the original brand domains.
+* Distance to Known Domains: Malicious domains maintain a calculated distance to popular domains to deceive users, while legitimate ones are the original domains without variations.
